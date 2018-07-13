@@ -1,38 +1,30 @@
 import os
 
+import pandas as pd
 from openpyxl import load_workbook
 
 
 RIDES = {}
+ROWS = []
 
-TIMES = [
-        '9a-10a',
-        '10a-11a',
-        '11a-12p',
-        '12p-1p',
-        '1p-2p',
-        '2p-3p',
-        '3p-4p',
-        '4p-5p',
-        '5p-6p',
-        '6p-7p',
-        '7p-8p',
-        '8p-9p',
-        '9p-10p',
-        '10p-11p',
-        ]
+
+
+#TODO: Remove, ended up not using these classes
 
 class day():
-    def __init__(self, date):
+    def __init__(self, date, throughput):
         self.date = date
-        self.throughput = {}
-        # {'9a-10a':234}
+        self.throughput = throughput
+        # {'9a-10a':234, ...}
+    def __repr__(self): 
+        return str(self.date) + ' ' + str(self.throughput)
 
 
 class ride():
     def __init__(self, name):
         self.name = name
         self.days = []
+        # {'DW_102117.xlsx':[]}
 
 
 def make_new():
@@ -77,12 +69,12 @@ def valid_times(cells):
 
 def throughput(cells, times):
     """Get the throughput for all columns"""
-    ride_throughput = []
+    ride_throughput = {}
     for time in times:
         value_coordinate = str(time.column) + '20'
         value = cells[value_coordinate].value
         if value != 'Ride Throughput':
-            ride_throughput.append({'time':time.value, 'count':value})
+            ride_throughput[time.value] = value
             # print('ride_throughput ,', time.value, ',',  value)
 
     return ride_throughput
@@ -125,67 +117,85 @@ def sweep_cells(cells):
     return tp
 
 
-def sweep_sheets(workbook):
-    # sheet_names = ['Sheet' + str(i) for i in range(1,32)]
-    sheet_names = workbook.get_sheet_names()
+    def to_excel(self):
+        return {self.name:self.days}
 
-    points = []
-    
+
+def sweep_sheets(workbook, date):
+    # sheet_names = ['Sheet' + str(i) for i in range(1,32)]
+    sheet_names = workbook.sheetnames
+
     for sheet_name in sheet_names:
         cells = workbook[sheet_name]
         ride_name = cells['A6'].value
         tp = sweep_cells(cells)
-        print()
-        print(ride_name)
-        print(tp)
 
-        #if ride_name not in RIDES:
-        #    RIDES.append(ride(ride_name))
+        row = {'ride_name': ride_name, 'date': date }
+        for k, v in tp.items():
+            row[k]=v
+        ROWS.append(row)
 
-        #entry = RIDES[ride_name]
-        #entry.days
-
-
-class day():
-    def __init__(self, date):
-        self.date = date
-        self.throughput = {}
-        # {'9a-10a':234}
-
-
-class ride():
-    def __init__(self, name):
-        self.name = name
-        self.days = []
-
-        # print_points(sheet_name, ride_name, tp)
+        #TODO: Remove
+        # first time run creates objects
+        # if ride_name not in RIDES:
+        #     RIDES[ride_name] = ride(ride_name)
+        # print(ride_name)
+        # print(date)
+        # print(tp)
+        # RIDES[ride_name].days.append(day(date, tp))
 
 
 def sweep_documents(directory):
     file_names = get_files(directory)
     for filename in file_names:
+        print()
         print('--------------------------------------------')
         print('Loading ' + filename)
         print('--------------------------------------------')
         wb = load_workbook(filename = os.path.join(directory, filename))
-        sweep_sheets(wb)
+        import re
+        import dateutil
+
+        raw_date = re.sub('[DW_.xlsx]', '', filename)
+        date = dateutil.parser.parse(raw_date)
+        sweep_sheets(wb, date)
+
+
+def save(df, filename):
+    # df.to_csv(filename)
+    df.to_excel(filename)
+
 
 
 def main():
 
     sweep_documents('attraction-operational-readiness-reports')
+    # sweep_documents('test')
 
-    #wb = load_workbook(filename = 'attraction-operational-readiness-reports/DW_082617.xlsx')
-    #sweep_sheets(wb)
+    df = pd.DataFrame(ROWS)
 
+    TITLES = ['ride_name',
+              'date',
+              '9a-10a',
+              '10a-11a',
+              '11a-12p',
+              '12p-1p',
+              '1p-2p',
+              '2p-3p',
+              '3p-4p',
+              '4p-5p',
+              '5p-6p',
+              '6p-7p',
+              '7p-8p',
+              '8p-9p',
+              '9p-10p',
+              '10p-11p'
+              ]
 
-    # print(titles)
-    # """Write to CSV file"""
-    # import csv
-    # with open('eggs.csv', 'wb') as csvfile:
-    #     spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    #     spamwriter.writerow(titles)
-    #     spamwriter.writerow(tp[:,0])
+    df = df[TITLES]
+    sorted_df = df.sort_values(by=['ride_name','date'])
+    save(sorted_df, 'testing.xlsx')
+
 
 
 if __name__ == '__main__':
