@@ -1,0 +1,444 @@
+
+
+sheet_name: Sheet1
+ride_name: Amazing Flying Elephants
+ride_throughput: 10a-11a 116
+ride_throughput: 11a-12p 200
+ride_throughput: 12p-1p 234
+ride_throughput: 1p-2p 241
+ride_throughput: 2p-3p 245
+ride_throughput: 3p-4p 235
+ride_throughput: 4p-5p 228
+ride_throughput: 5p-6p 244
+ride_throughput: 6p-7p 238
+ride_throughput: 7p-8p 197
+
+
+sheet_name: Sheet2
+ride_name: Busy Bees
+ride_throughput: 10a-11a 33
+ride_throughput: 11a-12p 121
+ride_throughput: 12p-1p 97
+ride_throughput: 1p-2p 85
+ride_throughput: 2p-3p 130
+ride_throughput: 3p-4p 110
+ride_throughput: 4p-5p 107
+ride_throughput: 5p-6p 116
+ride_throughput: 6p-7p 87
+ride_throughput: 7p-8p 0
+
+
+sheet_name: Sheet3
+ride_name: Demolition Derby
+ride_throughput: 10a-11a 151
+ride_throughput: 11a-12p 201
+ride_throughput: 12p-1p 210
+ride_throughput: 1p-2p 233
+ride_throughput: 2p-3p 242
+ride_throughput: 3p-4p 193
+ride_throughput: 4p-5p 233
+ride_throughput: 5p-6p 237
+ride_throughput: 6p-7p 201
+ride_throughput: 7p-8p 202
+
+
+sheet_name: Sheet4
+ride_name: Dizzy Disk
+ride_throughput: 10a-11a 157
+ride_throughput: 11a-12p 225
+ride_throughput: 12p-1p 250
+ride_throughput: 1p-2p 227
+ride_throughput: 2p-3p 225
+ride_throughput: 3p-4p 252
+ride_throughput: 4p-5p 169
+ride_throughput: 5p-6p 188
+ride_throughput: 6p-7p 227
+ride_throughput: 7p-8p 219
+
+
+sheet_name: Sheet5
+ride_name: Lemon Twist
+ride_throughput: 10a-11a 145
+ride_throughput: 11a-12p 241
+ride_throughput: 12p-1p 310
+ride_throughput: 1p-2p 295
+ride_throughput: 2p-3p 296
+ride_throughput: 3p-4p 285
+ride_throughput: 4p-5p 328
+ride_throughput: 5p-6p 236
+ride_throughput: 6p-7p 207
+ride_throughput: 7p-8p 12
+
+
+sheet_name: Sheet6
+ride_name: Lucky Ducky
+ride_throughput: 10a-11a 34
+ride_throughput: 11a-12p 127
+ride_throughput: 12p-1p 147
+ride_throughput: 1p-2p 151
+ride_throughput: 2p-3p 137
+ride_throughput: 3p-4p 134
+ride_throughput: 4p-5p 134
+ride_throughput: 5p-6p 112
+ride_throughput: 6p-7p 112
+ride_throughput: 7p-8p 64
+
+
+sheet_name: Sheet7
+ride_name: Piggy Parade
+ride_throughput: 10a-11a 29
+ride_throughput: 11a-12p 103
+ride_throughput: 12p-1p 124
+ride_throughput: 1p-2p 142
+ride_throughput: 2p-3p 125
+ride_throughput: 3p-4p 98
+ride_throughput: 4p-5p 116
+ride_throughput: 5p-6p 102
+ride_throughput: 6p-7p 70
+ride_throughput: 7p-8p 48
+
+
+sheet_name: Sheet8
+ride_name: Scrambler
+ride_throughput: 10a-11a 178
+ride_throughput: 11a-12p 205
+ride_throughput: 12p-1p 169
+ride_throughput: 1p-2p 250
+ride_throughput: 2p-3p 194
+ride_throughput: 3p-4p 192
+ride_throughput: 4p-5p 235
+ride_throughput: 5p-6p 207
+ride_throughput: 6p-7p 155
+ride_throughput: 7p-8p 204
+
+
+sheet_name: Sheet9
+ride_name: Shooting Star
+ride_throughput: 10a-11a 96
+ride_throughput: 11a-12p 190
+ride_throughput: 12p-1p 157
+ride_throughput: 1p-2p 150
+ride_throughput: 2p-3p 174
+ride_throughput: 3p-4p 153
+ride_throughput: 4p-5p 149
+ride_throughput: 5p-6p 155
+ride_throughput: 6p-7p 128
+ride_throughput: 7p-8p 138
+
+
+sheet_name: Sheet10
+ride_name: Sky Rider
+ride_throughput: 10a-11a 223
+ride_throughput: 11a-12p 208
+ride_throughput: 12p-1p 266
+ride_throughput: 1p-2p 243
+ride_throughput: 2p-3p 282
+ride_throughput: 3p-4p 203
+ride_throughput: 4p-5p 229
+ride_throughput: 5p-6p 245
+ride_throughput: 6p-7p 266
+ride_throughput: 7p-8p 228
+
+
+sheet_name: Sheet11
+ride_name: Waltzing Swinger
+ride_throughput: 10a-11a 168
+ride_throughput: 11a-12p 376
+ride_throughput: 12p-1p 346
+ride_throughput: 1p-2p 425
+ride_throughput: 2p-3p 354
+ride_throughput: 3p-4p 383
+ride_throughput: 4p-5p 469
+ride_throughput: 5p-6p 313
+ride_throughput: 6p-7p 404
+ride_throughput: 7p-8p 209
+
+
+sheet_name: Sheet12
+ride_name: Wonder Wheel
+ride_throughput: 10a-11a 85
+ride_throughput: 11a-12p 132
+ride_throughput: 12p-1p 184
+ride_throughput: 1p-2p 101
+ride_throughput: 2p-3p 132
+ride_throughput: 3p-4p 134
+ride_throughput: 4p-5p 137
+ride_throughput: 5p-6p 116
+ride_throughput: 6p-7p 134
+ride_throughput: 7p-8p 127
+
+
+sheet_name: Sheet13
+ride_name: Blazing Fury
+ride_throughput: 10a-11a 605
+ride_throughput: 11a-12p 672
+ride_throughput: 12p-1p 724
+ride_throughput: 1p-2p 678
+ride_throughput: 2p-3p 732
+ride_throughput: 3p-4p 736
+ride_throughput: 4p-5p 711
+ride_throughput: 5p-6p 700
+ride_throughput: 6p-7p 556
+ride_throughput: 7p-8p 286
+
+
+sheet_name: Sheet14
+ride_name: Daredevil Falls
+ride_throughput: 10a-11a 0
+ride_throughput: 11a-12p 451
+ride_throughput: 12p-1p 688
+ride_throughput: 1p-2p 751
+ride_throughput: 2p-3p 813
+ride_throughput: 3p-4p 789
+ride_throughput: 4p-5p 764
+ride_throughput: 5p-6p 801
+ride_throughput: 6p-7p 703
+ride_throughput: 7p-8p 308
+
+
+sheet_name: Sheet15
+ride_name: Tennessee Tornado
+ride_throughput: 10a-11a 270
+ride_throughput: 11a-12p 515
+ride_throughput: 12p-1p 496
+ride_throughput: 1p-2p 774
+ride_throughput: 2p-3p 846
+ride_throughput: 3p-4p 295
+ride_throughput: 4p-5p 782
+ride_throughput: 5p-6p 409
+ride_throughput: 6p-7p 466
+ride_throughput: 7p-8p 282
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet16
+ride_name: Lightning Rod
+ride_throughput: 10a-11a 177
+ride_throughput: 11a-12p 383
+ride_throughput: 12p-1p 511
+ride_throughput: 1p-2p 304
+ride_throughput: 2p-3p 501
+ride_throughput: 3p-4p 327
+ride_throughput: 4p-5p 409
+ride_throughput: 5p-6p 99
+ride_throughput: 6p-7p 484
+ride_throughput: 7p-8p 218
+ride_throughput: 8p-9p 103
+
+
+sheet_name: Sheet17
+ride_name: Rockin' Roadway
+ride_throughput: 9a-10a 0
+ride_throughput: 10a-11a 233
+ride_throughput: 11a-12p 334
+ride_throughput: 12p-1p 243
+ride_throughput: 1p-2p 347
+ride_throughput: 2p-3p 427
+ride_throughput: 3p-4p 400
+ride_throughput: 4p-5p 180
+ride_throughput: 5p-6p 382
+ride_throughput: 6p-7p 286
+ride_throughput: 7p-8p 285
+ride_throughput: 8p-9p 51
+
+
+sheet_name: Sheet18
+ride_name: Barnstormer
+ride_throughput: 9a-10a 0
+ride_throughput: 10a-11a 300
+ride_throughput: 11a-12p 386
+ride_throughput: 12p-1p 340
+ride_throughput: 1p-2p 450
+ride_throughput: 2p-3p 606
+ride_throughput: 3p-4p 300
+ride_throughput: 4p-5p 319
+ride_throughput: 5p-6p 246
+ride_throughput: 6p-7p 289
+ride_throughput: 7p-8p 234
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet19
+ride_name: Granny's Garden
+ride_throughput: 10a-11a 59
+ride_throughput: 11a-12p 59
+ride_throughput: 12p-1p 59
+ride_throughput: 1p-2p 59
+ride_throughput: 2p-3p 59
+ride_throughput: 3p-4p 59
+ride_throughput: 4p-5p 59
+ride_throughput: 5p-6p 59
+ride_throughput: 6p-7p 59
+ride_throughput: 7p-8p 59
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet20
+ride_name: Little Pilots Playground
+ride_throughput: 10a-11a 90
+ride_throughput: 11a-12p 90
+ride_throughput: 12p-1p 90
+ride_throughput: 1p-2p 90
+ride_throughput: 2p-3p 90
+ride_throughput: 3p-4p 90
+ride_throughput: 4p-5p 90
+ride_throughput: 5p-6p 90
+ride_throughput: 6p-7p 90
+ride_throughput: 7p-8p 90
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet21
+ride_name: Smoky Mountain River Rampage
+ride_throughput: 11a-12p 751
+ride_throughput: 12p-1p 976
+ride_throughput: 1p-2p 946
+ride_throughput: 2p-3p 1002
+ride_throughput: 3p-4p 1000
+ride_throughput: 4p-5p 948
+ride_throughput: 5p-6p 1042
+ride_throughput: 6p-7p 822
+ride_throughput: 7p-8p 559
+ride_throughput: 8p-9p 14
+
+
+sheet_name: Sheet22
+ride_name: Dollywood Express
+ride_throughput: 11a-12p 0
+ride_throughput: 12p-1p 464
+ride_throughput: 1p-2p 546
+ride_throughput: 2p-3p 507
+ride_throughput: 3p-4p 566
+ride_throughput: 4p-5p 557
+ride_throughput: 5p-6p 555
+ride_throughput: 6p-7p 495
+ride_throughput: 7p-8p 365
+
+
+sheet_name: Sheet23
+ride_name: Village Carousel
+ride_throughput: 10a-11a 196
+ride_throughput: 11a-12p 356
+ride_throughput: 12p-1p 513
+ride_throughput: 1p-2p 499
+ride_throughput: 2p-3p 455
+ride_throughput: 3p-4p 493
+ride_throughput: 4p-5p 423
+ride_throughput: 5p-6p 384
+ride_throughput: 6p-7p 271
+ride_throughput: 7p-8p 179
+
+
+sheet_name: Sheet24
+ride_name: Lumberjack Lifts
+ride_throughput: 9a-10a 0
+ride_throughput: 10a-11a 74
+ride_throughput: 11a-12p 114
+ride_throughput: 12p-1p 163
+ride_throughput: 1p-2p 175
+ride_throughput: 2p-3p 89
+ride_throughput: 3p-4p 186
+ride_throughput: 4p-5p 194
+ride_throughput: 5p-6p 155
+ride_throughput: 6p-7p 198
+ride_throughput: 7p-8p 140
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet25
+ride_name: Mystery Mine
+ride_throughput: 9a-10a 0
+ride_throughput: 10a-11a 497
+ride_throughput: 11a-12p 529
+ride_throughput: 12p-1p 513
+ride_throughput: 1p-2p 508
+ride_throughput: 2p-3p 443
+ride_throughput: 3p-4p 583
+ride_throughput: 4p-5p 521
+ride_throughput: 5p-6p 485
+ride_throughput: 6p-7p 448
+ride_throughput: 7p-8p 479
+ride_throughput: 8p-9p 10
+
+
+sheet_name: Sheet26
+ride_name: Thunderhead
+ride_throughput: 10a-11a 310
+ride_throughput: 11a-12p 699
+ride_throughput: 12p-1p 528
+ride_throughput: 1p-2p 676
+ride_throughput: 2p-3p 554
+ride_throughput: 3p-4p 626
+ride_throughput: 4p-5p 591
+ride_throughput: 5p-6p 675
+ride_throughput: 6p-7p 552
+ride_throughput: 7p-8p 597
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet27
+ride_name: FireChaser Express
+ride_throughput: 10a-11a 524
+ride_throughput: 11a-12p 506
+ride_throughput: 12p-1p 488
+ride_throughput: 1p-2p 560
+ride_throughput: 2p-3p 562
+ride_throughput: 3p-4p 546
+ride_throughput: 4p-5p 550
+ride_throughput: 5p-6p 557
+ride_throughput: 6p-7p 591
+ride_throughput: 7p-8p 621
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet28
+ride_name: Firehouse Fun Yard
+ride_throughput: 10a-11a 126
+ride_throughput: 11a-12p 126
+ride_throughput: 12p-1p 126
+ride_throughput: 1p-2p 126
+ride_throughput: 2p-3p 126
+ride_throughput: 3p-4p 126
+ride_throughput: 4p-5p 126
+ride_throughput: 5p-6p 126
+ride_throughput: 6p-7p 126
+ride_throughput: 7p-8p 126
+ride_throughput: 8p-9p 0
+
+
+sheet_name: Sheet29
+ride_name: River Battle
+ride_throughput: 11a-12p 394
+ride_throughput: 12p-1p 442
+ride_throughput: 1p-2p 408
+ride_throughput: 2p-3p 457
+ride_throughput: 3p-4p 462
+ride_throughput: 4p-5p 469
+ride_throughput: 5p-6p 454
+ride_throughput: 6p-7p 372
+ride_throughput: 7p-8p 151
+
+
+sheet_name: Sheet30
+ride_name: Sky Zip
+ride_throughput: 12p-1p 3
+ride_throughput: 1p-2p 10
+ride_throughput: 2p-3p 0
+ride_throughput: 3p-4p 15
+ride_throughput: 4p-5p 7
+ride_throughput: 5p-6p 1
+
+
+sheet_name: Sheet31
+ride_name: Wild Eagle
+ride_throughput: 10a-11a 346
+ride_throughput: 11a-12p 423
+ride_throughput: 12p-1p 780
+ride_throughput: 1p-2p 737
+ride_throughput: 2p-3p 499
+ride_throughput: 3p-4p 663
+ride_throughput: 4p-5p 738
+ride_throughput: 5p-6p 703
+ride_throughput: 6p-7p 692
+ride_throughput: 7p-8p 676
+ride_throughput: 8p-9p 0
