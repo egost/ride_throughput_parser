@@ -159,7 +159,7 @@ def main():
     """Sweeps through documents to extract information regarding the throughput of rides"""
 
     wk_dir = os.path.dirname(os.path.realpath('__file__'))
-    directory = os.path.join(wk_dir, 'attraction-operational-readiness-reports')
+    directory = os.path.join(wk_dir, 'resources/attraction-operational-readiness-reports')
 
     # TODO: Add working debug mode
     # directory = os.path.join(wk_dir, 'test_files')
