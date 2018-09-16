@@ -54,6 +54,7 @@ def get_files(directory, inc_ext=['xlsx']):
 
 def sweep_cells(cells):
     times = valid_times(cells)
+    # TODO: Get other imformation such as weather, temperature, average wait time, etc
     pkt = throughput(cells, times)
 
     return pkt
@@ -61,6 +62,8 @@ def sweep_cells(cells):
 
 def sweep_sheets(workbook, date):
     """Looks through the sheets of a given document"""
+
+    #TODO: Sweep the sheets in a way that makes sense for panda, then later assemble the information they want
 
     sheet_names = workbook.sheetnames
 
